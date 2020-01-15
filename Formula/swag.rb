@@ -2,16 +2,16 @@
 class Swag < Formula
   desc "Swag gen doc"
   homepage ""
-  version "2.2.2"
+  version "2.2.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/DADDYLAB/swag/releases/download/v2.2.2/swag_2.2.2_Darwin_x86_64.tar.gz"
-    sha256 "7397b703aaed9eee6f239d006ccdb4d3aae824fce4d8b71fe8904dab883240c1"
+    url "https://github.com/DADDYLAB/swag/releases/download/v2.2.3/swag_2.2.3_Darwin_x86_64.tar.gz"
+    sha256 "502db7fbaa67d29264b530f3a85c0711e824b316fafa9da6a31994d1875aa993"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/DADDYLAB/swag/releases/download/v2.2.2/swag_2.2.2_Linux_x86_64.tar.gz"
-      sha256 "707040b18e5047fa824b109edc1c698ea744543d947504c521567365181d3ebb"
+      url "https://github.com/DADDYLAB/swag/releases/download/v2.2.3/swag_2.2.3_Linux_x86_64.tar.gz"
+      sha256 "a37ae7382fd638eb751f698f822055dc62f074efa4c58ec25aa3340f13f3bac5"
     end
   end
 
